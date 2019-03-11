@@ -1,1 +1,48 @@
-/*Start with pure bootstrap only*/
+body {
+  background: url('https://images.unsplash.com/photo-1550520920-27ba45c38740?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+#title {
+  font-family: 'Assistant', sans-serif;
+}
+
+.container {
+  margin: 0.5%;
+  opacity: 0.90;
+  max-width: 700px;
+  padding: 20px 0;
+}
+
+
+.form-row {
+  padding: 5px 0;
+}
+
+.col-sm-6 {
+  padding: 0 10px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: 4px 5px 0 10px;
+}
+input {
+  max-width: 400px;
+}
+
+label {
+  max-width: 500px;
+}
+
+.text-dark, h1 {
+  color: black;
+  font-family: 'Assistant', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  input[type='text'], input[type='email'], input[type='number'] {
+    width: 100%;
+    max-width: none;
+  }
+}
